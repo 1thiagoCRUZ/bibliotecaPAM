@@ -1,6 +1,9 @@
+import 'package:bibliotec/tecEventosPages/cardsteceventos.dart';
+import 'package:bibliotec/tecEventosPages/editarPerfil.dart';
 import 'package:bibliotec/homePages/homePage.dart';
 import 'package:bibliotec/loginPages/cadastro.dart';
 import 'package:bibliotec/loginPages/login.dart';
+import 'package:bibliotec/tecEventosPages/metodospagamento.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: MetodosPagamento(),
     );
   }
 }
